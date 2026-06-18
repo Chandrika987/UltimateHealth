@@ -1037,7 +1037,7 @@ const moveSlider = (ref: RefObject<HTMLDivElement | null>, dir: number) => {
           {/* Quick Links */}
           <div className="footer-links-col">
             <h3>Quick Links</h3>
-            <Link href={withBasePath("/")}>Home</Link>
+            <Link href={withBasePath("/#header")}>Home</Link>
             <a href="#features">Features</a>
             <a href="#programs">Programs</a>
             <a href="#screenshots">Screenshots</a>
